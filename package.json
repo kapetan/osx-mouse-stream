@@ -1,0 +1,33 @@
+{
+  "name": "osx-mouse-stream",
+  "version": "1.0.0",
+  "description": "Mouse events as a stream",
+  "main": "readable.js",
+  "bin": {
+    "mouse-stream": "bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kapetan/osx-mouse-stream"
+  },
+  "keywords": [
+    "osx",
+    "mouse",
+    "track",
+    "events",
+    "position",
+    "stream"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kapetan/osx-mouse-stream/issues"
+  },
+  "homepage": "https://github.com/kapetan/osx-mouse-stream",
+  "dependencies": {
+    "JSONStream": "^1.0.3",
+    "macmouse": "^1.0.0",
+    "minimist": "^1.1.1",
+    "once": "^1.3.2",
+    "osx-mouse": "^1.0.2"
+  }
+}
