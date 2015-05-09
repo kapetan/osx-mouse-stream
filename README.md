@@ -59,3 +59,13 @@ cat log | mouse-stream --no-output
 ```
 
 The `--no-output` and `--no-input` options disable the readable and writable part of the cli.
+
+With [airpaste](https://github.com/mafintosh/airpaste) it's possible to take control of the mouse on another OS X machine.
+
+```
+mouse-stream | airpaste
+```
+
+```
+airpaste | mouse-stream --no-output
+```
