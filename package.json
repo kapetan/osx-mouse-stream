@@ -1,6 +1,6 @@
 {
   "name": "osx-mouse-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mouse events as a stream",
   "main": "readable.js",
   "bin": {
